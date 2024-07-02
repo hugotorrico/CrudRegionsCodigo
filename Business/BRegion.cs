@@ -29,5 +29,12 @@ namespace Business
 
             return message;
         }
+
+        public List<Region> Get(Region region)
+        {
+            return dRegion.Get(region);
+        }
+
+
     }
 }
